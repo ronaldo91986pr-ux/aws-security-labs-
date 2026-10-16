@@ -1,1 +1,12 @@
 
+# Navigate to your local repository folder
+cd aws-security-labs
+
+# Stage the new directory and its files
+git add vpc-security-monitoring/
+
+# Commit the changes with a descriptive message
+git commit -m "feat: implemented VPC Flow Logs and NACL explicit deny rules"
+
+# Push the updates to your GitHub repository
+git push origin main
